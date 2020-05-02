@@ -1,0 +1,12 @@
+.example-enter {
+  transition: transform 1000ms cubic-bezier(0.215, 0.91, 0.155, 1) 2000ms,
+    top 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 2000ms,
+    left 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 2000ms,
+    height 250ms cubic-bezier(0.215, 0.61, 0.355, 1) 2000ms;
+  transform-origin: left;
+}
+
+.example-enter2 {
+  transition: transform 1000ms cubic-bezier(0.215, 0.91, 0.155, 1);
+  transform-origin: left;
+}
